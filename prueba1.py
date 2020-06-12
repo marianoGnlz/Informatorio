@@ -1,6 +1,0 @@
-print('Introduce un número: ', end="")
-Dato = input()
-print('Su número es:', Dato)
-print('Introduzca una palabra: ', end="")
-Dato = input()
-print('Su palabra es:', Dato)
