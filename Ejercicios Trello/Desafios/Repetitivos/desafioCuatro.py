@@ -26,7 +26,7 @@ clear()
 for i in range(m):
     for j in range(n):
         if ((j % 2 == 0) & (i % 2 != 0)) or ((j % 2 != 0) & (i % 2 == 0)):
-            print('[X]', end='')
+            print('\x1b[0;32;47m' + '   ' + '\x1b[0m', end="")
         else:
-            print(f'{bcolors.OKGREEN}[O]{bcolors.ENDC}', end='')
+            print('\x1b[0;32;42m' + '   ' + '\x1b[0m', end="")
     print()
