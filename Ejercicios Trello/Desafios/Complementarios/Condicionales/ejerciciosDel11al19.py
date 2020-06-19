@@ -174,7 +174,6 @@ ejercicios = {
     '19': lambda: ejercicioDiecinueve()
 }
 
-
 def main():
     while True:
         try:

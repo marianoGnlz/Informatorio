@@ -5,3 +5,4 @@ if edad >= mayorEdad:
     print('Usted es mayor de edad.')
 else:
     print('No es mayor de edad.')
+    
